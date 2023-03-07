@@ -26,3 +26,16 @@ const articles = [
         img: "article-image-01.png"
     },
 ]
+
+function renderArticles() {
+    const articlesSection = document.getElementById("articles")
+    articlesSection.innerHTML = ""
+
+    articles.forEach(function(article) {
+        articlesSection.innerHTML += `
+            <div>${article.title}</div>
+        `
+    })
+}
+
+renderArticles()
