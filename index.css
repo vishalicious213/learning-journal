@@ -2,3 +2,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* HEADER */
+
+header {
+    outline: 1px solid red;
+    width: 414px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+}
