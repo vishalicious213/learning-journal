@@ -39,11 +39,11 @@ nav {
 /* ARTICLES */
 
 .article {
-    margin: 1rem;
+    margin: 1rem 1rem 2.5rem;
 }
 
 .article-img {
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
 }
 
 .article-img img {
@@ -58,4 +58,5 @@ nav {
 .article-title {
     font-weight: 700;
     font-size: 1.5rem;
+    margin: .5rem 0;
 }
