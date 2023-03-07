@@ -61,6 +61,21 @@ nav {
     margin: .5rem 0;
 }
 
+.featured {
+    margin: 1rem 0 2.5rem;
+    color: white;
+}
+
+.featured-date {
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+
+.featured-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
 #view-more {
     font-weight: 700;
     text-align: center;

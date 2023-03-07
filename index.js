@@ -37,12 +37,9 @@ function renderArticles() {
     articlesSection.innerHTML = ""
 
     articlesSection.innerHTML += `
-        <div class="article">
-            <div class="article-img">
-                <img src="/img/${featured.img}" alt="">
-            </div>
-            <div class="article-date">${featured.date}</div>
-            <div class="article-title">${featured.title}</div>
+        <div class="featured" style="background-image: url(/img/${featured.img});">
+            <div class="featured-date">${featured.date}</div>
+            <div class="featured-title">${featured.title}</div>
             <div class="article-blurb">${featured.blurb}</div>
         </div>
     `
