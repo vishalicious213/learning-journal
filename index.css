@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
 }
 
 /* HEADER */
@@ -25,6 +27,7 @@ header {
 
 nav {
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
     font-size: .75rem;
     text-transform: uppercase;
     display: flex;
@@ -37,4 +40,20 @@ nav {
 
 .article {
     margin: 1rem;
+}
+
+.article-img {
+    margin-bottom: 1rem;
+}
+
+.article-img img {
+    width: 100%;
+}
+
+.article-date {
+    text-transform: uppercase;
+}
+
+.article-title {
+    font-weight: 700;
 }
