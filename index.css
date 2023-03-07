@@ -64,16 +64,28 @@ nav {
 .featured {
     margin: 1rem 0 2.5rem;
     color: white;
+    display: grid;
+    grid-template-columns: 1rem auto 1rem;
+    grid-template-areas:
+        ". date  ."
+        ". title ."
+        ". blurb .";
 }
 
 .featured-date {
     text-transform: uppercase;
     font-size: .75rem;
+    grid-area: date;
 }
 
 .featured-title {
     font-weight: 700;
     font-size: 2rem;
+    grid-area: title;
+}
+
+.featured-blurb {
+    grid-area: blurb;
 }
 
 #view-more {

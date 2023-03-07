@@ -40,7 +40,7 @@ function renderArticles() {
         <div class="featured" style="background-image: url(/img/${featured.img});">
             <div class="featured-date">${featured.date}</div>
             <div class="featured-title">${featured.title}</div>
-            <div class="article-blurb">${featured.blurb}</div>
+            <div class="featured-blurb">${featured.blurb}</div>
         </div>
     `
 
