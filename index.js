@@ -33,19 +33,33 @@ const articles = [
 
 function renderArticles() {
     const articlesSection = document.getElementById("articles")
+    let featured = articles[0]
     articlesSection.innerHTML = ""
 
-    articles.forEach(function(article) {
-        articlesSection.innerHTML += `
-            <div class="article">
-                <div class="article-img">
-                    <img src="/img/${article.img}" alt="">
-                </div>
-                <div class="article-date">${article.date}</div>
-                <div class="article-title">${article.title}</div>
-                <div class="article-blurb">${article.blurb}</div>
+    articlesSection.innerHTML += `
+        <div class="article">
+            <div class="article-img">
+                <img src="/img/${featured.img}" alt="">
             </div>
-        `
+            <div class="article-date">${featured.date}</div>
+            <div class="article-title">${featured.title}</div>
+            <div class="article-blurb">${featured.blurb}</div>
+        </div>
+    `
+
+    articles.forEach(function(article) {
+        if (article.id > 1) {
+            articlesSection.innerHTML += `
+                <div class="article">
+                    <div class="article-img">
+                        <img src="/img/${article.img}" alt="">
+                    </div>
+                    <div class="article-date">${article.date}</div>
+                    <div class="article-title">${article.title}</div>
+                    <div class="article-blurb">${article.blurb}</div>
+                </div>
+            `
+        }
     })
 }
 
