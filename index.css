@@ -12,3 +12,13 @@ header {
     justify-content: space-between;
     padding: 1.25rem;
 }
+
+#title {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#logo {
+    margin-right: .25rem;
+}
