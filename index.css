@@ -22,3 +22,13 @@ header {
 #logo {
     margin-right: .25rem;
 }
+
+nav {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .75rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7rem;
+}
