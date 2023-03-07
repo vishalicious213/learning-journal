@@ -33,7 +33,9 @@ function renderArticles() {
 
     articles.forEach(function(article) {
         articlesSection.innerHTML += `
+            <div>${article.date}</div>
             <div>${article.title}</div>
+            <div>${article.blurb}</div>
         `
     })
 }
