@@ -68,4 +68,9 @@ footer {
     color: white;
     padding: 2.5rem 0;
     text-align: center;
+    font-size: .75rem;
+}
+
+#tagline {
+    font-weight: 700;
 }
