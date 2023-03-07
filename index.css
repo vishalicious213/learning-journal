@@ -62,10 +62,13 @@ nav {
 }
 
 .featured {
-    margin: 1rem 0 2.5rem;
+    padding: 5.5rem 0 2.5rem;
     color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
-    grid-template-columns: 1rem auto 1rem;
+    grid-template-columns: 1.25rem auto 1.25rem;
     grid-template-areas:
         ". date  ."
         ". title ."
@@ -81,11 +84,14 @@ nav {
 .featured-title {
     font-weight: 700;
     font-size: 2rem;
+    margin: .5rem 0;
     grid-area: title;
 }
 
 .featured-blurb {
     grid-area: blurb;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
 }
 
 #view-more {
