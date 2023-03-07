@@ -1,3 +1,5 @@
+console.log("Learning journal")
+
 const articles = [
     {
         date: "January 1, 2023",
