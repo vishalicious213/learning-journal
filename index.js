@@ -21,7 +21,7 @@ const articles = [
     },
     {
         date: "February 15, 2023",
-        title: "Blog two",
+        title: "Blog three",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         img: "article-image-01.png"
     },

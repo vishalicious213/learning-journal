@@ -52,8 +52,10 @@ nav {
 
 .article-date {
     text-transform: uppercase;
+    font-size: .9rem;
 }
 
 .article-title {
     font-weight: 700;
+    font-size: 1.5rem;
 }
