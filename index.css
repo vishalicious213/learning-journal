@@ -32,3 +32,9 @@ nav {
     align-items: center;
     width: 7rem;
 }
+
+/* ARTICLES */
+
+.article {
+    margin: 1rem;
+}
