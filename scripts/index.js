@@ -1,5 +1,7 @@
 console.log("Learning journal")
 
+import { articles } from "./data.js"
+
 function renderArticles() {
     const featuredSection = document.getElementById("featured")
     const articlesSection = document.getElementById("articles")
