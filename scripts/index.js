@@ -12,7 +12,7 @@ function renderArticles() {
     featuredSection.innerHTML += `
         <div class="featured" style="background-image: url(/img/${featured.img});">
             <div class="featured-date">${featured.date}</div>
-            <a class="featured-title" href="${featured.link}">
+            <a class="featured-title" href="/posts/${featured.link}">
                 <div>${featured.title}</div>
             </a>
             <div class="featured-blurb">${featured.blurb}</div>
