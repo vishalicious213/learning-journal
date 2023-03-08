@@ -20,7 +20,8 @@ export const articles = [
         date: "January 1, 2023",
         title: "Blog one",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
-        img: "article-image-01.png"
+        img: "article-image-01.png",
+        link: "./posts/2023-01-01.html",
     },
     {
         id: 2,

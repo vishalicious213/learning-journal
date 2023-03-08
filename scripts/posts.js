@@ -6,6 +6,7 @@ const articlePath = window.location.pathname
 let articleIndex
 
 if (articlePath === "/posts/2022-12-27.html") {articleIndex = 0}
+if (articlePath === "/posts/2023-01-04.html") {articleIndex = 1}
 
 function renderPost() {
     const postSection = document.getElementById("post")
