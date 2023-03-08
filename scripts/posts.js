@@ -7,6 +7,11 @@ let articleIndex
 
 if (articlePath === "/posts/2022-12-27.html") {articleIndex = 0}
 if (articlePath === "/posts/2023-01-01.html") {articleIndex = 1}
+if (articlePath === "/posts/2023-01-15.html") {articleIndex = 2}
+if (articlePath === "/posts/2023-02-01.html") {articleIndex = 3}
+if (articlePath === "/posts/2023-02-15.html") {articleIndex = 4}
+if (articlePath === "/posts/2023-03-01.html") {articleIndex = 5}
+if (articlePath === "/posts/2023-03-15.html") {articleIndex = 6}
 
 function renderPost() {
     const postSection = document.getElementById("post")
