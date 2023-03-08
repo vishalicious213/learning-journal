@@ -6,7 +6,8 @@ const articles = [
         date: "December 27, 2022",
         title: "My new journey as a bootcamp student.",
         blurb: "After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.",
-        img: "article-image-hero.png"
+        img: "article-image-hero.png",
+        link: "./posts/2022-12-27.html"
     },
     {
         id: 1,
@@ -62,7 +63,9 @@ function renderArticles() {
     featuredSection.innerHTML += `
         <div class="featured" style="background-image: url(/img/${featured.img});">
             <div class="featured-date">${featured.date}</div>
-            <div class="featured-title">${featured.title}</div>
+            <a class="featured-title" href="${featured.link}">
+                <div>${featured.title}</div>
+            </a>
             <div class="featured-blurb">${featured.blurb}</div>
         </div>
     `

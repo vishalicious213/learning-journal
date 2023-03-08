@@ -93,6 +93,8 @@ nav {
 .featured-title {
     font-weight: 700;
     font-size: 2rem;
+    color: white;
+    text-decoration: none;
     margin: .5rem 0;
     grid-area: title;
 }
