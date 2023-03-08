@@ -71,9 +71,7 @@ function renderArticles() {
         if (article.id > 0) {
             articlesSection.innerHTML += `
                 <div class="article">
-                    <div class="article-img">
-                        <img src="/img/${article.img}" alt="">
-                    </div>
+                    <div class="article-img" style="background-image: url(/img/${article.img});"></div>
                     <div class="article-date">${article.date}</div>
                     <div class="article-title">${article.title}</div>
                     <div class="article-blurb">${article.blurb}</div>
@@ -84,3 +82,12 @@ function renderArticles() {
 }
 
 renderArticles()
+
+{/* <div class="article">
+<div class="article-img">
+    <img src="/img/${article.img}" alt="">
+</div>
+<div class="article-date">${article.date}</div>
+<div class="article-title">${article.title}</div>
+<div class="article-blurb">${article.blurb}</div>
+</div> */}
