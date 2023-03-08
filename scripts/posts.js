@@ -11,9 +11,24 @@ if (articlePath === "/posts/2023-01-01.html") {articleIndex = 1}
 function renderPost() {
     const postSection = document.getElementById("post")
     const moreSection = document.getElementById("more")
+    const header = document.getElementById("header")
     let post = articles[articleIndex]
+    header.innerHTML = ""
     postSection.innerHTML = ""
     moreSection.innerHTML = ""
+
+    header.innerHTML = `
+        <div id="title">
+            <div id="logo">
+                <img src="/img/logo.png" alt="chat icon logo">
+            </div>
+            <div>My learning journal</div>
+        </div>
+        <nav>
+            <div>Home</div>
+            <div>About Me</div>
+        </nav>
+    `
 
     postSection.innerHTML += `
         <div class="post">
