@@ -1,11 +1,16 @@
 console.log("posts")
+console.log(window.location.pathname)
 
 import { articles } from "./data.js"
+const articlePath = window.location.pathname
+let articleIndex
+
+if (articlePath === "/posts/2022-12-27.html") {articleIndex = 0}
 
 function renderPost() {
     const postSection = document.getElementById("post")
     const moreSection = document.getElementById("more")
-    let post = articles[0]
+    let post = articles[articleIndex]
     postSection.innerHTML = ""
     moreSection.innerHTML = ""
 
