@@ -53,7 +53,9 @@ function renderPost() {
                 <div class="article">
                     <div class="article-img" style="background-image: url(/img/${article.img});"></div>
                     <div class="article-date">${article.date}</div>
-                    <div class="article-title">${article.title}</div>
+                    <a class="article-title" href="./${article.link}">
+                        <div>${article.title}</div>
+                    </a>
                     <div class="article-blurb posts-blurb">${article.blurb}</div>
                 </div>
             `

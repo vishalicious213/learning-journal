@@ -25,7 +25,7 @@ function renderArticles() {
                 <div class="article">
                     <div class="article-img" style="background-image: url(/img/${article.img});"></div>
                     <div class="article-date">${article.date}</div>
-                    <a class="article-title" href="${article.link}">
+                    <a class="article-title" href="/posts/${article.link}">
                         <div>${article.title}</div>
                     </a>
                     <div class="article-blurb">${article.blurb}</div>

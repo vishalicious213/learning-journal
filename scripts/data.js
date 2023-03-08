@@ -5,7 +5,7 @@ export const articles = [
         title: "My new journey as a bootcamp student.",
         blurb: "After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.",
         img: "article-image-hero.png",
-        link: "./posts/2022-12-27.html",
+        link: "2022-12-27.html",
         body: `
             <h2>How I stay committed to learning</h2>
             <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>
@@ -21,7 +21,7 @@ export const articles = [
         title: "Blog one",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         img: "article-image-01.png",
-        link: "./posts/2023-01-01.html",
+        link: "2023-01-01.html",
         body: `<h2>Blog one body will go here</h2>`
     },
     {
@@ -30,7 +30,7 @@ export const articles = [
         title: "Blog two",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         img: "article-image-02.png",
-        link: "./posts/2023-01-15.html",
+        link: "2023-01-15.html",
         body: `<h2>Blog two body will go here</h2>`
     },
     {
@@ -39,7 +39,7 @@ export const articles = [
         title: "Blog three",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         img: "article-image-03.png",
-        link: "./posts/2023-02-01.html",
+        link: "2023-02-01.html",
         body: `<h2>Blog three body will go here</h2>`
     },
     {
@@ -48,7 +48,7 @@ export const articles = [
         title: "Blog four",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         img: "article-image-04.png",
-        link: "./posts/2023-02-15.html",
+        link: "2023-02-15.html",
         body: `<h2>Blog four body will go here</h2>`
     },
     {
@@ -57,7 +57,7 @@ export const articles = [
         title: "Blog five",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         img: "article-image-05.png",
-        link: "./posts/2023-03-01.html",
+        link: "2023-03-01.html",
         body: `<h2>Blog five body will go here</h2>`
     },
     {
@@ -66,7 +66,7 @@ export const articles = [
         title: "Blog six",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         img: "article-image-06.png",
-        link: "./posts/2023-03-15.html",
+        link: "2023-03-15.html",
         body: `<h2>Blog six body will go here</h2>`
     },
 ]
