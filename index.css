@@ -35,6 +35,11 @@ nav {
     width: 7rem;
 }
 
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
 /* ARTICLES */
 
 #articles {

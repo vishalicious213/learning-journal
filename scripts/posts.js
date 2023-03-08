@@ -32,7 +32,7 @@ function renderPost() {
             <div>My learning journal</div>
         </div>
         <nav>
-            <div>Home</div>
+            <a href="../index.html">Home</a>
             <div>About Me</div>
         </nav>
     `
