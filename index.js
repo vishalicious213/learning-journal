@@ -32,11 +32,13 @@ const articles = [
 ]
 
 function renderArticles() {
+    const featuredSection = document.getElementById("featured")
     const articlesSection = document.getElementById("articles")
     let featured = articles[0]
+    featuredSection.innerHTML = ""
     articlesSection.innerHTML = ""
 
-    articlesSection.innerHTML += `
+    featuredSection.innerHTML += `
         <div class="featured" style="background-image: url(/img/${featured.img});">
             <div class="featured-date">${featured.date}</div>
             <div class="featured-title">${featured.title}</div>
