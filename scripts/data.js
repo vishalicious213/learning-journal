@@ -22,40 +22,51 @@ export const articles = [
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         img: "article-image-01.png",
         link: "./posts/2023-01-01.html",
+        body: `<h2>Blog one body will go here</h2>`
     },
     {
         id: 2,
         date: "January 15, 2023",
         title: "Blog two",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
-        img: "article-image-02.png"
+        img: "article-image-02.png",
+        link: "./posts/2023-01-15.html",
+        body: `<h2>Blog two body will go here</h2>`
     },
     {
         id: 3,
         date: "February 1, 2023",
         title: "Blog three",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
-        img: "article-image-03.png"
+        img: "article-image-03.png",
+        link: "./posts/2023-02-01.html",
+        body: `<h2>Blog three body will go here</h2>`
     },
     {
         id: 4,
         date: "February 15, 2023",
         title: "Blog four",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
-        img: "article-image-04.png"
+        img: "article-image-04.png",
+        link: "./posts/2023-02-15.html",
+        body: `<h2>Blog four body will go here</h2>`
     },
     {
         id: 5,
         date: "March 1, 2023",
         title: "Blog five",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
-        img: "article-image-05.png"
+        img: "article-image-05.png",
+        link: "./posts/2023-03-01.html",
+        body: `<h2>Blog five body will go here</h2>`
     },
     {
         id: 6,
         date: "March 15, 2023",
         title: "Blog six",
         blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
-        img: "article-image-06.png"
+        img: "article-image-06.png",
+        link: "./posts/2023-03-15.html",
+        body: `<h2>Blog six body will go here</h2>`
     },
 ]
