@@ -125,3 +125,18 @@ footer {
 #tagline {
     font-weight: 700;
 }
+
+/* POSTS.JS */
+
+.post {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    row-gap: .5rem;
+    padding: 0 1.25rem;
+}
+
+#recent {
+    font-weight: 700;
+    text-align: center;
+    margin: 2.5rem 0;
+}
