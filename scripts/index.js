@@ -34,12 +34,3 @@ function renderArticles() {
 }
 
 renderArticles()
-
-{/* <div class="article">
-<div class="article-img">
-    <img src="/img/${article.img}" alt="">
-</div>
-<div class="article-date">${article.date}</div>
-<div class="article-title">${article.title}</div>
-<div class="article-blurb">${article.blurb}</div>
-</div> */}
