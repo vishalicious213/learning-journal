@@ -51,7 +51,9 @@ function renderPost() {
         if (article.id > 0) {
             moreSection.innerHTML += `
                 <div class="article">
-                    <div class="article-img" style="background-image: url(/img/${article.img});"></div>
+                    <a href="./${article.link}">
+                        <div class="article-img" style="background-image: url(/img/${article.img});"></div>
+                    </a>
                     <div class="article-date">${article.date}</div>
                     <a class="article-title" href="./${article.link}">
                         <div>${article.title}</div>
