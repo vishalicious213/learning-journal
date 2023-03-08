@@ -15,10 +15,12 @@ function renderPost() {
     moreSection.innerHTML = ""
 
     postSection.innerHTML += `
-        <div class="featured" style="background-image: url(/img/${post.img});">
-            <div class="featured-date">${post.date}</div>
-            <div class="featured-title">${post.title}</div>
-            <div class="featured-blurb">${post.blurb}</div>
+        <div class="article">
+            <div class="article-date">${post.date}</div>
+            <div class="article-title">${post.title}</div>
+            <div class="article-blurb">${post.blurb}</div>
+            <div class="article-img" style="background-image: url(/img/${post.img});"></div>
+            <div>${post.body}</div>
         </div>
     `
 
