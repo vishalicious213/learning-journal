@@ -12,8 +12,10 @@ function renderPost() {
     const postSection = document.getElementById("post")
     const moreSection = document.getElementById("more")
     const header = document.getElementById("header")
+    const footer = document.getElementById("footer")
     let post = articles[articleIndex]
     header.innerHTML = ""
+    footer.innerHTML = ""
     postSection.innerHTML = ""
     moreSection.innerHTML = ""
 
@@ -52,6 +54,11 @@ function renderPost() {
             `
         }
     })
+
+    footer.innerHTML = `
+        <div id="tagline">My Learning Journal</div>
+        <div if="copyright">Copyright ©2023</div>
+    `
 }
 
 renderPost()
