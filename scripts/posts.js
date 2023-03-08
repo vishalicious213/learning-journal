@@ -31,7 +31,7 @@ function renderPost() {
                     <div class="article-img" style="background-image: url(/img/${article.img});"></div>
                     <div class="article-date">${article.date}</div>
                     <div class="article-title">${article.title}</div>
-                    <div class="article-blurb">${article.blurb}</div>
+                    <div class="article-blurb posts-blurb">${article.blurb}</div>
                 </div>
             `
         }

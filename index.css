@@ -128,6 +128,10 @@ footer {
 
 /* POSTS.JS */
 
+#main {
+    margin-bottom: 3.5rem;
+}
+
 .post {
     display: grid;
     grid-template-rows: auto auto auto auto;
@@ -135,12 +139,19 @@ footer {
     padding: 0 1.25rem;
 }
 
-#more {
-    padding: 0 1.25rem;
-}
-
 #recent {
     font-weight: 700;
     text-align: center;
     margin: 2.5rem 0;
+}
+
+#more {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem 1.5rem;
+    padding: 0 2rem;
+}
+
+.posts-blurb {
+    margin-bottom: 2.5rem;
 }
