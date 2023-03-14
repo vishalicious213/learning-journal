@@ -162,3 +162,14 @@ footer {
 .posts-blurb {
     margin-bottom: 2.5rem;
 }
+
+/* ABOUT */
+
+#about {
+    padding: 0 2rem;
+}
+
+#about-txt {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
