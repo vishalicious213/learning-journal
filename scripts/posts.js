@@ -33,7 +33,7 @@ function renderPost() {
         </div>
         <nav>
             <a href="../index.html">Home</a>
-            <div>About Me</div>
+            <a href="../about.html">About Me</a>
         </nav>
     `
 
