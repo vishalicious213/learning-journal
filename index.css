@@ -147,10 +147,13 @@ footer {
 /* ABOUT */
 
 #about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 0 1.25rem;
+    margin-bottom: 2rem;
 }
 
-#about-txt {
+#about-h1 {
     font-size: 2.25rem;
     font-weight: 700;
 }
