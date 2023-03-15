@@ -55,10 +55,17 @@ export const articles = [
         id: 3,
         date: "February 1, 2023",
         title: "Blog three",
-        blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+        blurb: "I used ChatGPT with a prompt of 'Write a short article about web development, JavaScript and The Phantom Zone' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-03.png",
         link: "2023-02-01.html",
-        body: `<h2>Blog three body will go here</h2>`
+        body: `
+            <h2>Write a short article about web development, JavaScript and The Phantom Zone</h2>
+            <p>Web development is a constantly evolving field that requires a deep understanding of various programming languages and technologies. One of the most important languages for web development is JavaScript, which is used to create dynamic and interactive websites.</p>
+            <p>The Phantom Zone, on the other hand, is a fictional prison in the DC Comics universe that is used to incarcerate some of the most dangerous criminals in the galaxy. But what do web development, JavaScript, and The Phantom Zone have in common? The answer lies in the power of JavaScript.</p>
+            <p>JavaScript is a language that allows web developers to create complex functionality that can respond to user actions, process data, and interact with other web technologies. With JavaScript, you can create animations, validate forms, load content dynamically, and much more.</p>
+            <p>Just like The Phantom Zone is a highly secure facility that keeps dangerous criminals locked up, JavaScript can be used to create secure web applications that protect user data and prevent cyberattacks. With the help of frameworks and libraries like React and Vue.js, developers can create robust web applications that are resistant to vulnerabilities like cross-site scripting and SQL injection.</p>
+            <p>In conclusion, web development and JavaScript have the power to create amazing experiences for users, and protect their data from potential threats. And while The Phantom Zone may be a fictional place, the principles of security and protection that it represents are very real in the world of web development. By mastering the art of web development with JavaScript, developers can create amazing applications that are both functional and secure.</p>
+            `
     },
     {
         id: 4,
