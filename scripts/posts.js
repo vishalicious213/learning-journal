@@ -15,14 +15,12 @@ if (articlePath === "/posts/2023-03-15.html") {articleIndex = 6}
 
 function renderPost() {
     const postSection = document.getElementById("post")
-    const moreSection = document.getElementById("more")
     const header = document.getElementById("header")
     const footer = document.getElementById("footer")
     let post = articles[articleIndex]
     header.innerHTML = ""
     footer.innerHTML = ""
     postSection.innerHTML = ""
-    moreSection.innerHTML = ""
 
     header.innerHTML = `
         <div id="title">
