@@ -24,10 +24,15 @@ function renderPost() {
 
     header.innerHTML = `
         <div id="title">
-            <div id="logo">
-                <img src="/img/logo.png" alt="chat icon logo">
-            </div>
-            <div>My learning journal</div>
+            <a href="../index.html">
+                <div id="logo">
+                    <img src="/img/logo.png" alt="chat icon logo">
+                </div>
+
+            </a>
+            <a href="../index.html">
+                <div>My learning journal</div>
+            </a>
         </div>
 
         <nav>
