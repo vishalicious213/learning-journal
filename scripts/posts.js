@@ -47,22 +47,22 @@ function renderPost() {
         </div>
     `
 
-    articles.forEach(function(article) {
-        if (article.id > 0) {
-            moreSection.innerHTML += `
-                <div class="article">
-                    <a href="./${article.link}">
-                        <div class="article-img" style="background-image: url(/img/${article.img});"></div>
-                    </a>
-                    <div class="article-date">${article.date}</div>
-                    <a class="article-title" href="./${article.link}">
-                        <div>${article.title}</div>
-                    </a>
-                    <div class="article-blurb posts-blurb">${article.blurb}</div>
-                </div>
-            `
-        }
-    })
+    // articles.forEach(function(article) {
+    //     if (article.id > 0) {
+    //         moreSection.innerHTML += `
+    //             <div class="article">
+    //                 <a href="./${article.link}">
+    //                     <div class="article-img" style="background-image: url(/img/${article.img});"></div>
+    //                 </a>
+    //                 <div class="article-date">${article.date}</div>
+    //                 <a class="article-title" href="./${article.link}">
+    //                     <div>${article.title}</div>
+    //                 </a>
+    //                 <div class="article-blurb posts-blurb">${article.blurb}</div>
+    //             </div>
+    //         `
+    //     }
+    // })
 
     footer.innerHTML = `
         <div id="tagline">My Learning Journal</div>
