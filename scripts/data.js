@@ -18,7 +18,7 @@ export const articles = [
     {
         id: 1,
         date: "January 1, 2023",
-        title: "Blog one",
+        title: "JavaScript, a laptop and a small houseplant walk into a bar",
         blurb: "I used ChatGPT with a prompt of 'Write a short article about web development, JavaScript and a laptop and small houseplant' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-01.png",
         link: "2023-01-01.html",
@@ -38,7 +38,7 @@ export const articles = [
     {
         id: 2,
         date: "January 15, 2023",
-        title: "Blog two",
+        title: "Light bulb analogies only go so far",
         blurb: "I used ChatGPT with a prompt of 'Write a short article about web development, JavaScript and a light bulb' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-02.png",
         link: "2023-01-15.html",
@@ -54,7 +54,7 @@ export const articles = [
     {
         id: 3,
         date: "February 1, 2023",
-        title: "Blog three",
+        title: "The Phantom Zone and web security",
         blurb: "I used ChatGPT with a prompt of 'Write a short article about web development, JavaScript and The Phantom Zone' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-03.png",
         link: "2023-02-01.html",
@@ -70,7 +70,7 @@ export const articles = [
     {
         id: 4,
         date: "February 15, 2023",
-        title: "Blog four",
+        title: "Walking outside in the real WWW",
         blurb: "I used ChatGPT with a prompt of 'WWrite a short article about web development, JavaScript and walking outside' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-04.png",
         link: "2023-02-15.html",
@@ -86,7 +86,7 @@ export const articles = [
     {
         id: 5,
         date: "March 1, 2023",
-        title: "Blog five",
+        title: "What do we all know about React.js, ChatGPT?",
         blurb: "I used ChatGPT with a prompt of 'WWrite a short article about web development, JavaScript and React.js' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-05.png",
         link: "2023-03-01.html",
@@ -102,7 +102,7 @@ export const articles = [
     {
         id: 6,
         date: "March 15, 2023",
-        title: "Blog six",
+        title: "ChatGPT, tell me something generic about web design & development",
         blurb: "I used ChatGPT with a prompt of 'WWrite a short article about web development and web design' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-06.png",
         link: "2023-03-15.html",
