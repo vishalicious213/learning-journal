@@ -2,8 +2,23 @@
 
 import { articles } from "./data.js"
 const articlesSection = document.getElementById("articles")
+const articlePath = window.location.pathname
+let articleIndex
 
-articles.forEach(function(article) {
+if (articlePath === "/posts/2022-12-27.html") {articleIndex = 0}
+if (articlePath === "/posts/2023-01-01.html") {articleIndex = 1}
+if (articlePath === "/posts/2023-01-15.html") {articleIndex = 2}
+if (articlePath === "/posts/2023-02-01.html") {articleIndex = 3}
+if (articlePath === "/posts/2023-02-15.html") {articleIndex = 4}
+if (articlePath === "/posts/2023-03-01.html") {articleIndex = 5}
+if (articlePath === "/posts/2023-03-15.html") {articleIndex = 6}
+
+// only include articles that aren't the current main displayed article
+const filteredArticles = articles.filter(function(it) {
+    return it.id != articleIndex
+})
+
+filteredArticles.forEach(function(article) {
     if (article.id > 0) {
         articlesSection.innerHTML += `
             <div class="article">
