@@ -35,7 +35,7 @@ nav {
     width: 7rem;
 }
 
-nav a {
+nav a, header a {
     color: black;
     text-decoration: none;
 }
