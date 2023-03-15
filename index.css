@@ -76,6 +76,8 @@ nav a {
     text-decoration: none;
 }
 
+/* FEATURED */
+
 .featured {
     box-sizing: border-box;
     padding: 5.5rem 0 2.5rem;
@@ -111,13 +113,6 @@ nav a {
     grid-area: blurb;
     font-size: 1rem;
     line-height: 1.5rem;
-}
-
-#view-more {
-    font-weight: 700;
-    text-align: center;
-    margin: 2.5rem 0;
-    text-decoration: underline;
 }
 
 /* FOOTER */
