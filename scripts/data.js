@@ -71,10 +71,17 @@ export const articles = [
         id: 4,
         date: "February 15, 2023",
         title: "Blog four",
-        blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+        blurb: "I used ChatGPT with a prompt of 'WWrite a short article about web development, JavaScript and walking outside' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-04.png",
         link: "2023-02-15.html",
-        body: `<h2>Blog four body will go here</h2>`
+        body: `
+        <h2>Write a short article about web development, JavaScript and walking outside</h2>
+        <p>Web development is an exciting and ever-evolving field that involves creating dynamic and interactive websites using various programming languages and technologies. One of the most important languages for web development is JavaScript, which allows developers to create engaging user experiences and add advanced functionality to their websites.</p>
+        <p>Just like JavaScript can enhance the user experience on a website, walking outside can enhance your experience of the world around you. Walking outside allows you to explore new places, get some fresh air, and improve your physical and mental health.</p>
+        <p>Similarly, JavaScript allows developers to create dynamic and interactive web pages that can respond to user actions, process data, and interact with other web technologies. With JavaScript, developers can create animations, validate forms, load content dynamically, and much more.</p>
+        <p>Walking outside and using JavaScript have more in common than you might think. Both allow you to experience the world in new and exciting ways, and both require practice and experience to master. Just as walking outside can improve your health and well-being, mastering JavaScript can improve your skills as a web developer and help you create amazing experiences for your users.</p>
+        <p>In conclusion, web development and JavaScript are essential tools for creating dynamic and interactive websites, while walking outside is an essential tool for exploring the world around you and improving your health. By mastering JavaScript and taking a walk outside, you can improve both your technical skills and your overall well-being.</p>
+        `
     },
     {
         id: 5,
