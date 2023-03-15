@@ -1,4 +1,4 @@
-console.log("Learning journal")
+// renders featured article on index page
 
 import { articles } from "./data.js"
 

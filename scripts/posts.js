@@ -1,5 +1,5 @@
-console.log("posts")
-console.log(window.location.pathname)
+// renders individual posts when that post's page is selected
+// console.log(window.location.pathname)
 
 import { articles } from "./data.js"
 const articlePath = window.location.pathname

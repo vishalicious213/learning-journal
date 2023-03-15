@@ -152,12 +152,12 @@ footer {
     margin: 2.5rem 0;
 }
 
-#more {
+/* #more {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem 1.5rem;
     padding: 0 1.25rem;
-}
+} */
 
 .posts-blurb {
     margin-bottom: 2.5rem;

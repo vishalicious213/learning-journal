@@ -1,3 +1,5 @@
+// renders articles summary feed at the bottom of each page
+
 import { articles } from "./data.js"
 const articlesSection = document.getElementById("articles")
 
