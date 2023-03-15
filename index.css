@@ -138,6 +138,12 @@ footer {
     padding: 0 1.25rem;
 }
 
+#recent {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1.75rem;
+}
+
 /* ABOUT */
 
 #about {
