@@ -75,22 +75,29 @@ export const articles = [
         img: "article-image-04.png",
         link: "2023-02-15.html",
         body: `
-        <h2>Write a short article about web development, JavaScript and walking outside</h2>
-        <p>Web development is an exciting and ever-evolving field that involves creating dynamic and interactive websites using various programming languages and technologies. One of the most important languages for web development is JavaScript, which allows developers to create engaging user experiences and add advanced functionality to their websites.</p>
-        <p>Just like JavaScript can enhance the user experience on a website, walking outside can enhance your experience of the world around you. Walking outside allows you to explore new places, get some fresh air, and improve your physical and mental health.</p>
-        <p>Similarly, JavaScript allows developers to create dynamic and interactive web pages that can respond to user actions, process data, and interact with other web technologies. With JavaScript, developers can create animations, validate forms, load content dynamically, and much more.</p>
-        <p>Walking outside and using JavaScript have more in common than you might think. Both allow you to experience the world in new and exciting ways, and both require practice and experience to master. Just as walking outside can improve your health and well-being, mastering JavaScript can improve your skills as a web developer and help you create amazing experiences for your users.</p>
-        <p>In conclusion, web development and JavaScript are essential tools for creating dynamic and interactive websites, while walking outside is an essential tool for exploring the world around you and improving your health. By mastering JavaScript and taking a walk outside, you can improve both your technical skills and your overall well-being.</p>
+            <h2>Write a short article about web development, JavaScript and walking outside</h2>
+            <p>Web development is an exciting and ever-evolving field that involves creating dynamic and interactive websites using various programming languages and technologies. One of the most important languages for web development is JavaScript, which allows developers to create engaging user experiences and add advanced functionality to their websites.</p>
+            <p>Just like JavaScript can enhance the user experience on a website, walking outside can enhance your experience of the world around you. Walking outside allows you to explore new places, get some fresh air, and improve your physical and mental health.</p>
+            <p>Similarly, JavaScript allows developers to create dynamic and interactive web pages that can respond to user actions, process data, and interact with other web technologies. With JavaScript, developers can create animations, validate forms, load content dynamically, and much more.</p>
+            <p>Walking outside and using JavaScript have more in common than you might think. Both allow you to experience the world in new and exciting ways, and both require practice and experience to master. Just as walking outside can improve your health and well-being, mastering JavaScript can improve your skills as a web developer and help you create amazing experiences for your users.</p>
+            <p>In conclusion, web development and JavaScript are essential tools for creating dynamic and interactive websites, while walking outside is an essential tool for exploring the world around you and improving your health. By mastering JavaScript and taking a walk outside, you can improve both your technical skills and your overall well-being.</p>
         `
     },
     {
         id: 5,
         date: "March 1, 2023",
         title: "Blog five",
-        blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+        blurb: "I used ChatGPT with a prompt of 'WWrite a short article about web development, JavaScript and React.js' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-05.png",
         link: "2023-03-01.html",
-        body: `<h2>Blog five body will go here</h2>`
+        body: `
+            <h2>Write a short article about web development, JavaScript and React.js</h2>
+            <p>Web development is a constantly evolving field that requires knowledge of various programming languages and technologies. JavaScript is one of the most important languages for web development, allowing developers to create dynamic and interactive websites.</p>
+            <p>React.js is a popular JavaScript library used for building user interfaces. It was developed by Facebook and has become one of the most widely used front-end libraries in web development. React.js is known for its flexibility and efficiency, making it an essential tool for building complex user interfaces.</p>
+            <p>With React.js, developers can create reusable components, manage application state, and efficiently render updates to the user interface. React.js also allows developers to easily integrate with other technologies, such as backend frameworks like Node.js or database technologies like MongoDB.</p>
+            <p>The power of React.js lies in its ability to create rich user interfaces that are responsive, performant, and scalable. With its component-based architecture and declarative syntax, React.js simplifies the development of complex UIs and makes it easier to maintain and update them over time.</p>
+            <p>In conclusion, web development and JavaScript are essential tools for creating dynamic and interactive websites, while React.js is a powerful library that enables developers to build complex and scalable user interfaces. By mastering React.js and combining it with other web development technologies, developers can create amazing experiences for their users and build cutting-edge web applications.</p>
+        `
     },
     {
         id: 6,
