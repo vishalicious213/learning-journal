@@ -47,6 +47,7 @@ nav a {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem 1.5rem;
     padding: 0 1.25rem;
+    margin-bottom: 3.5rem;
 }
 
 .article {
@@ -134,10 +135,6 @@ footer {
 }
 
 /* POSTS.JS */
-
-#main {
-    margin-bottom: 3.5rem;
-}
 
 .post {
     display: grid;
