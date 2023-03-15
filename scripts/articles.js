@@ -14,8 +14,8 @@ if (articlePath === "/posts/2023-03-01.html") {articleIndex = 5}
 if (articlePath === "/posts/2023-03-15.html") {articleIndex = 6}
 
 // only include articles that aren't the current main displayed article
-const filteredArticles = articles.filter(function(it) {
-    return it.id != articleIndex
+const filteredArticles = articles.filter(function(article) {
+    return article.id != articleIndex
 })
 
 filteredArticles.forEach(function(article) {

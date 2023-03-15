@@ -28,10 +28,17 @@ export const articles = [
         id: 2,
         date: "January 15, 2023",
         title: "Blog two",
-        blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+        blurb: "I used ChatGPT with a prompt of 'Write a short article about web development, JavaScript and a light bulb' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-02.png",
         link: "2023-01-15.html",
-        body: `<h2>Blog two body will go here</h2>`
+        body: `
+            <h2>Write a short article about web development, JavaScript and a light bulb</h2>
+            <p>Web development is a constantly evolving field that requires creativity, problem-solving skills, and knowledge of various programming languages. One of the most important languages for web development is JavaScript, which is used to create dynamic and interactive websites.</p>
+            <p>To understand the importance of JavaScript, think of a light bulb. A light bulb can be turned on and off with a simple switch, but what if you wanted to control it remotely, adjust the brightness, or set it to turn on at a specific time? You would need a more sophisticated system, and that's where JavaScript comes in.</p>
+            <p>JavaScript allows web developers to create complex functionality that can respond to user actions, process data, and interact with other web technologies. With JavaScript, you can create animations, validate forms, load content dynamically, and much more.</p>
+            <p>Just like a light bulb, JavaScript can be used to create simple or complex solutions, depending on the needs of the user. And with the help of libraries and frameworks like React and Angular, developers can build even more powerful applications.</p>
+            <p>In conclusion, JavaScript is a crucial part of modern web development, enabling developers to create dynamic and interactive websites that can adapt to user needs. So the next time you turn on a light bulb, think about the power of JavaScript and the amazing things it can do.</p>
+        `
     },
     {
         id: 3,
