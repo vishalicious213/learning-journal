@@ -103,9 +103,16 @@ export const articles = [
         id: 6,
         date: "March 15, 2023",
         title: "Blog six",
-        blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+        blurb: "I used ChatGPT with a prompt of 'WWrite a short article about web development and web design' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-06.png",
         link: "2023-03-15.html",
-        body: `<h2>Blog six body will go here</h2>`
+        body: `
+            <h2>Write a short article about web development and web design</h2>
+            <p>Web development and web design are two interrelated but distinct disciplines that are essential to creating high-quality websites. While web development is focused on the technical aspects of building a website, web design is concerned with the visual and aesthetic aspects of the website.</p>
+            <p>Web development involves the use of programming languages and tools to build websites that are functional, efficient, and secure. Developers use technologies such as HTML, CSS, and JavaScript to create user interfaces, manage application logic, and interact with back-end systems.</p>
+            <p>Web design, on the other hand, is focused on the visual and aesthetic elements of the website, such as layout, typography, color, and graphics. Designers use tools such as Adobe Photoshop and Sketch to create high-fidelity mockups of websites that can be used to guide the development process.</p>
+            <p>Both web development and web design are essential to creating high-quality websites that meet the needs of users. Web developers must work closely with web designers to ensure that the technical and visual aspects of the website are aligned, and that the website is both functional and visually appealing.</p>
+            <p>In conclusion, web development and web design are two essential disciplines that are closely intertwined. By combining technical expertise with a strong sense of aesthetics, web developers and web designers can create websites that are not only functional and efficient, but also visually stunning and engaging for users.</p>
+            `
     },
 ]
