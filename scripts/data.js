@@ -19,10 +19,21 @@ export const articles = [
         id: 1,
         date: "January 1, 2023",
         title: "Blog one",
-        blurb: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+        blurb: "I used ChatGPT with a prompt of 'Write a short article about web development, JavaScript and a laptop and small houseplant' to generate this article, instead of the typical Lorem Ipsum paceholder text.",
         img: "article-image-01.png",
         link: "2023-01-01.html",
-        body: `<h2>Blog one body will go here</h2>`
+        body: `
+            <h2>Write a short article about web development, JavaScript and a laptop and small houseplant</h2>
+            <p>Web development has become an essential part of the digital world, with an increasing number of businesses and individuals turning to the web to showcase their products, services, or ideas. JavaScript is a programming language that plays a critical role in web development, enabling developers to create dynamic and interactive websites.</p>
+
+            <p>If you look at a laptop and a small houseplant, you may wonder how they relate to web development and JavaScript. However, they are more connected than you might think. A laptop is a tool that allows developers to write and test their code, while a small houseplant is a symbol of growth and development.</p>
+
+            <p>Just like a houseplant needs nurturing and care to grow, JavaScript requires constant learning and practice to keep up with the latest developments in web development. It's a versatile language that can be used for front-end and back-end development, as well as mobile app development.</p>
+
+            <p>With JavaScript, developers can create engaging user interfaces, dynamic web pages, and responsive designs that work seamlessly across different devices. It allows them to add features like dropdown menus, sliders, pop-ups, and animations, all of which enhance the user experience.</p>
+
+            <p>In conclusion, web development and JavaScript are integral parts of the digital world, powering the websites, apps, and services that we use every day. Just like a laptop and a small houseplant, they require care and attention to grow and thrive. By mastering the art of web development with JavaScript, developers can create amazing experiences for users, and help businesses and individuals achieve their goals.</p>
+            `
     },
     {
         id: 2,
