@@ -37,11 +37,20 @@ Deployed at: https://vish213-learning-journal.netlify.app/
         - repeat
         - minmax
     - grid-template-rows
+    - grid-template-areas
     - gap
     - row-gap
+- grid-area
+- grid-column
+    - span
+- align-self
 - box-sizing: border-box
 - text-transform
 - text-decoration
+- background-position
+- background-repeat
+- background-size
+- media queries
 
 ## HTML concepts
 
