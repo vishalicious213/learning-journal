@@ -27,6 +27,22 @@ Deployed at: https://vish213-learning-journal.netlify.app/
 - window.location
     - window.location.pathname
 
+## CSS concepts
+
+- display: flex
+    - align-items
+    - justify-content
+- display: grid
+    - grid-template-columns
+        - repeat
+        - minmax
+    - grid-template-rows
+    - gap
+    - row-gap
+- box-sizing: border-box
+- text-transform
+- text-decoration
+
 ## HTML concepts
 
 - Semantic HTML
