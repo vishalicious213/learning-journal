@@ -7,3 +7,21 @@ After completing the project, I looked at implementations from other Scrimba stu
 The article/blog post pages have their content rendered using a JavaScript function that reads HTML from an array of objects. Because this project uses vanilla JavaScript instead of a library or framework like React, Vue or Angular, I relied on updating the innerHTML of various elements and styling them from a CSS file. Building the site in this manner helped with understanding what's happening behind-the-scenes if I were to make use of tools like React and helps to give a greater appreciation for the complexity of their abstraction of the JavaScript through JSX.
 
 Deployed at: https://vish213-learning-journal.netlify.app/
+
+## JavaScript concepts
+
+- variables
+- arrays
+    - .filter()
+    - forEach()
+- objects
+- functions
+    - return
+- key/value pairs
+- if conditionals
+- string template literals
+- module imports & exports
+- element.innerHTML
+- document.getElementById()
+- window.location
+    - window.location.pathname
