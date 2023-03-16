@@ -148,9 +148,9 @@ footer {
 
 #about {
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
     grid-template-areas: 
-        "pic  title"
+        "pic  pic"
+        "title title"
         "text text";
     gap: 1rem;
     padding: 0 1.25rem;
@@ -161,6 +161,7 @@ footer {
     border-radius: 50%;
     width: 100%;
     grid-area: "pic";
+    grid-column: span 2;
 }
 
 #about-h1 {
@@ -168,9 +169,25 @@ footer {
     font-weight: 700;
     grid-area: "title";
     align-self: center;
+    grid-column: span 2;
 }
 
 .about-txt {
     grid-area: "text";
     grid-column: span 2;
+    margin: 0;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 800px) {
+    #about {
+        grid-template-areas: 
+        "pic  title"
+        "text text";
+    }
+
+    #about-img, #about-h1 {
+        grid-column: span 1;
+    }
 }
