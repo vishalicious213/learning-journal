@@ -20,8 +20,24 @@ Deployed at: https://vish213-learning-journal.netlify.app/
 - key/value pairs
 - if conditionals
 - string template literals
+    - JavaScript variables in HTML
 - module imports & exports
 - element.innerHTML
 - document.getElementById()
 - window.location
     - window.location.pathname
+
+## HTML concepts
+
+- Semantic HTML
+    - header
+    - main
+    - nav
+    - section
+    - footer
+- classes
+- IDs
+- anchor tags
+- importing Google fonts
+- script tags
+    - type="module"
