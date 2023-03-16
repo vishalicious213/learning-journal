@@ -148,16 +148,29 @@ footer {
 
 #about {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-areas: 
+        "pic  title"
+        "text text";
+    gap: 1rem;
     padding: 0 1.25rem;
     margin-bottom: 2rem;
+}
+
+#about-img {
+    border-radius: 50%;
+    width: 100%;
+    grid-area: "pic";
 }
 
 #about-h1 {
     font-size: 2.25rem;
     font-weight: 700;
+    grid-area: "title";
+    align-self: center;
 }
 
-#about-img img {
-    border-radius: 50%;
+.about-txt {
+    grid-area: "text";
+    grid-column: span 2;
 }
